@@ -13,7 +13,7 @@ class Google_Drive_Api:
         """Google Drive API 인증 및 서비스 객체 생성"""
         creds = None
         token_path = 'token.json'
-        credentials_path = 'client_secret_41374105812-j8h10rickv0mv71orsmij3kni4hvpq3l.apps.googleusercontent.com.json'  # 다운로드한 OAuth 2.0 클라이언트의 JSON 파일 경로
+        credentials_path = 'credentials_path'  # 다운로드한 OAuth 2.0 클라이언트의 JSON 파일 경로
     
         # 이전에 인증된 토큰이 있으면 로드
         if os.path.exists(token_path):
